@@ -26,7 +26,7 @@ import { toast } from "@/hooks/use-toast";
 import { summaryPageTexts as texts } from "@/lib/constants/summaryPageTexts";
 import { LoadingSpinner } from "@/components/common/LoadingSpinner";
 
-const STORE_PHONE_NUMBER = "11995182883";
+const STORE_PHONE_NUMBER = "5511995182883";
 
 const CardOutline: React.FC<CardProps & { children: React.ReactNode }> = ({
   children,
