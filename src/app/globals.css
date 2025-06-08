@@ -1,0 +1,90 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: hsl(35, 60%, 95%); /* Light warm cream */
+    --foreground: hsl(30, 30%, 25%); /* Dark rich warm brown */
+    --card: hsl(35, 55%, 98%);      /* Slightly off-white, warmer */
+    --card-foreground: hsl(30, 30%, 25%);
+    --popover: hsl(35, 55%, 98%);
+    --popover-foreground: hsl(30, 30%, 25%);
+    --primary: hsl(28, 80%, 55%);   /* Laranja Caatinga */
+    --primary-foreground: hsl(30, 90%, 98%); /* Very light cream for text on primary */
+    --secondary: hsl(35, 40%, 90%);  /* Lighter warm beige */
+    --secondary-foreground: hsl(30, 30%, 25%);
+    --muted: hsl(35, 45%, 92%);     /* Light warm beige, darker than background */
+    --muted-foreground: hsl(30, 25%, 45%); /* Medium warm brown-gray */
+    --accent: hsl(45, 90%, 60%);    /* Warm Yellow */
+    --accent-foreground: hsl(30, 40%, 20%); /* Dark warm brown for text on accent */
+    --destructive: hsl(0, 70%, 50%);
+    --destructive-foreground: hsl(0, 0%, 100%);
+    --border: hsl(35, 40%, 88%);   /* Subtle warm beige border */
+    --input: hsl(35, 40%, 90%);    /* Slightly darker input border */
+    --ring: hsl(28, 80%, 55%);      /* Ring color same as new primary */
+    --chart-1: hsl(28, 75%, 60%);
+    --chart-2: hsl(45, 85%, 65%);
+    --chart-3: hsl(20, 70%, 55%);
+    --chart-4: hsl(35, 70%, 50%);
+    --chart-5: hsl(15, 65%, 50%);
+    --radius: 0.5rem;
+    --sidebar-background: hsl(35, 50%, 93%);
+    --sidebar-foreground: hsl(30, 30%, 30%);
+    --sidebar-primary: hsl(28, 75%, 50%);
+    --sidebar-primary-foreground: hsl(30, 90%, 98%);
+    --sidebar-accent: hsl(35, 45%, 88%);
+    --sidebar-accent-foreground: hsl(30, 30%, 30%);
+    --sidebar-border: hsl(35, 40%, 85%);
+    --sidebar-ring: hsl(28, 80%, 55%);
+  }
+
+  .dark {
+    --background: hsl(30, 20%, 12%); /* Very dark warm brown */
+    --foreground: hsl(35, 40%, 88%); /* Light warm beige */
+    --card: hsl(30, 20%, 15%);      /* Darker warm brown */
+    --card-foreground: hsl(35, 40%, 88%);
+    --popover: hsl(30, 20%, 15%);
+    --popover-foreground: hsl(35, 40%, 88%);
+    --primary: hsl(28, 85%, 60%);   /* Brighter Laranja Caatinga for dark */
+    --primary-foreground: hsl(30, 20%, 10%); /* Darker text for brighter primary */
+    --secondary: hsl(30, 20%, 20%);  /* Darker warm secondary */
+    --secondary-foreground: hsl(35, 40%, 88%);
+    --muted: hsl(30, 20%, 25%);
+    --muted-foreground: hsl(35, 30%, 70%); /* Lighter muted text */
+    --accent: hsl(45, 90%, 65%);    /* Warm Yellow - Dark Mode */
+    --accent-foreground: hsl(30, 20%, 10%); /* Darker text for brighter accent */
+    --destructive: hsl(0, 60%, 45%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+    --border: hsl(30, 20%, 28%);
+    --input: hsl(30, 20%, 30%);
+    --ring: hsl(28, 85%, 60%);
+    --chart-1: hsl(28, 80%, 65%);
+    --chart-2: hsl(45, 80%, 70%);
+    --chart-3: hsl(20, 75%, 60%);
+    --chart-4: hsl(35, 75%, 55%);
+    --chart-5: hsl(15, 70%, 55%);
+    --sidebar-background: hsl(30, 18%, 10%);
+    --sidebar-foreground: hsl(35, 38%, 85%);
+    --sidebar-primary: hsl(28, 80%, 58%);
+    --sidebar-primary-foreground: hsl(30, 90%, 98%);
+    --sidebar-accent: hsl(30, 18%, 18%);
+    --sidebar-accent-foreground: hsl(35, 38%, 85%);
+    --sidebar-border: hsl(30, 18%, 22%);
+    --sidebar-ring: hsl(28, 85%, 60%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

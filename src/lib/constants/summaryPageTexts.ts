@@ -1,0 +1,22 @@
+
+export const summaryPageTexts = {
+  orderSummary: "Resumo do Pedido",
+  reviewDetails: "Por favor, revise os detalhes do seu pedido antes de confirmar.",
+  shippingDetails: "Detalhes do Envio",
+  nameLabel: "Nome:",
+  phoneLabel: "Telefone:",
+  addressLabel: "Endereço:",
+  complementLabel: "Complemento:",
+  editDetails: "Editar Detalhes",
+  items: "Itens",
+  totalValue: "Valor Total",
+  readyToOrder: "Pronto para Pedir?",
+  whatsappMessageInfo: "Clicar em \"Confirmar Pedido\" preparará sua mensagem de pedido para o WhatsApp. A mensagem será pré-preenchida para ser enviada à nossa loja.",
+  confirmOrderAndProceed: "Confirmar Pedido e Prosseguir",
+  errorUserMissing: "Detalhes do usuário ausentes. Por favor, preencha suas informações.",
+  errorUserMissingTitle: "Informações Incompletas",
+  errorWhatsappGeneration: "Falha ao gerar mensagem do WhatsApp:",
+  errorConfirmationFailed: "Falha na Confirmação do Pedido",
+  errorWhatsappGenerationMessage: "Não foi possível gerar a mensagem do WhatsApp. Por favor, tente novamente.",
+  loading: "Carregando...",
+};

@@ -1,0 +1,21 @@
+
+export const checkoutUserDetailsPageTexts = {
+  deliveryDetailsTitle: "Detalhes para Entrega",
+  deliveryDetailsDescription: "Por favor, preencha seu nome e endereço para a entrega.",
+  fullName: "Nome Completo",
+  fullNamePlaceholder: "ex: Maria Silva",
+  deliveryAddress: "Endereço de Entrega",
+  deliveryAddressPlaceholder: "ex: Rua Principal, 123, Cidade, Estado, CEP",
+  complementLabel: "Complemento (Opcional)",
+  complementPlaceholder: "ex: Apto 101, Bloco B, Ponto de referência",
+  nameMinError: "Nome deve ter pelo menos 2 caracteres.",
+  addressMinError: "Endereço deve ter pelo menos 5 caracteres.",
+  saveAndProceed: "Salvar e Ir para o Resumo",
+  detailsSaved: "Detalhes Salvos",
+  yourInfoSaved: "Suas informações foram salvas.",
+  loading: "Carregando...",
+  errorLoadingPhoneTitle: "Erro ao carregar dados",
+  errorLoadingPhoneDescription: "Não foi possível carregar o número de telefone. Por favor, volte e tente novamente.",
+  errorSavingData: "Erro ao salvar dados",
+  errorSavingDataDescription: "Não foi possível salvar os dados. Tente novamente.",
+};
