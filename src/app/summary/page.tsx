@@ -221,7 +221,7 @@ export default function SummaryPage() {
             <Button
               onClick={handleConfirmOrder}
               disabled={isLoading}
-              className="w-full bg-primary text-primary-foreground hover:bg-primary/90 border border-yellow-700"
+              className="w-full bg-primary text-primary-foreground text-lg hover:bg-primary/90 border"
             >
               {isLoading ? (
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />

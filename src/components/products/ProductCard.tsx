@@ -120,7 +120,7 @@ export function ProductCard({ product }: ProductCardProps) {
                   size="icon"
                   onClick={handleDecrement}
                   aria-label={texts.decreaseQuantity}
-                  className="bg-accent text-accent-foreground hover:bg-accent/90 border border-yellow-700 rounded-full"
+                  className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full"
                 >
                   <MinusCircle className="h-5 w-5" />
                 </Button>
@@ -135,7 +135,7 @@ export function ProductCard({ product }: ProductCardProps) {
                   size="icon"
                   onClick={handleIncrement}
                   aria-label={texts.increaseQuantity}
-                  className="bg-accent text-accent-foreground hover:bg-accent/90 border border-yellow-700 rounded-full"
+                  className="bg-accent text-accent-foreground hover:bg-accent/90  rounded-full"
                 >
                   <PlusCircle className="h-5 w-5" />
                 </Button>
@@ -153,14 +153,14 @@ export function ProductCard({ product }: ProductCardProps) {
           ) : (
             <Button
               onClick={handleAddToCart}
-              className="w-full bg-accent text-accent-foreground hover:bg-accent/90 border border-yellow-700 rounded-lg"
+              className="w-full bg-accent md:text-lg text-accent-foreground hover:bg-accent/90  rounded-lg"
             >
-              <ShoppingCart className="mr-2 h-4 w-4" /> {texts.addToCart}
+              <ShoppingCart className="mr-2 h-5 w-5" /> {texts.addToCart}
             </Button>
           )
         ) : (
           <Button
-            className="w-full bg-accent text-accent-foreground hover:bg-accent/90 border border-yellow-700 rounded-lg"
+            className="w-full bg-accent text-accent-foreground hover:bg-accent/90 rounded-lg"
             disabled
           >
             <div className="h-4 w-4 mr-2 animate-pulse bg-black/20 rounded-sm" />{" "}
