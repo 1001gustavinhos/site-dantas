@@ -10,8 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["var(--font-pt-sans)", "sans-serif"],
-        pageTitle: ["var(--font-pt-sans)", "sans-serif"],
+        body: ["var(--font-inter)", "inter"],
         code: ["monospace"],
       },
       colors: {
@@ -46,7 +45,7 @@ export default {
           foreground: "var(--destructive-foreground)",
         },
         border: "var(--border)",
-        input: "hvar(--input)",
+        input: "var(--input)",
         ring: "var(--ring)",
         chart: {
           "1": "var(--chart-1)",

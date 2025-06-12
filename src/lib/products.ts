@@ -1,10 +1,5 @@
 import type { Product } from "@/lib/types";
 
-// Ensure the imageUrl paths correctly point to images in your /public folder.
-// For example, if id is 'empanada-frango', imageUrl: '/empanada-frango.webp'
-// means you should have a file named 'empanada-frango.webp' directly in the 'public' folder.
-// Names are case-sensitive. You might need to restart your dev server after adding files to /public.
-
 export const mockProducts: Product[] = [
   {
     id: "empanada-carne-ovo",

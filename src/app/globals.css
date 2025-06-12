@@ -24,7 +24,7 @@ body {
     --secondary-foreground: hsl(30, 30%, 25%);
     --muted: hsl(35, 45%, 92%); /* Light warm beige, darker than background */
     --muted-foreground: hsl(30, 25%, 45%); /* Medium warm brown-gray */
-    --accent: hsl(45, 90%, 60%); /* Warm Yellow */
+    --accent: hsl(45, 83%, 67%); /* Warm Yellow */
     --accent-foreground: hsl(
       30,
       40%,
@@ -33,9 +33,9 @@ body {
     --destructive: hsl(0, 70%, 50%);
     --destructive-foreground: hsl(0, 0%, 100%);
     --border: hsl(35, 40%, 88%); /* Subtle warm beige border */
-    --input: hsl(35, 40%, 90%); /* Slightly darker input border */
+    --input: hsl(31, 25%, 69%); /* Slightly darker input border */
     --ring: hsl(28, 80%, 55%); /* Ring color same as new primary */
-    --chart-1: hsl(28, 75%, 60%);
+    --chart-1: hsl(28, 80%, 67%);
     --chart-2: hsl(45, 85%, 65%);
     --chart-3: hsl(20, 70%, 55%);
     --chart-4: hsl(35, 70%, 50%);

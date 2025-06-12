@@ -212,7 +212,7 @@ export default function SummaryPage() {
               <span>R${totalPrice.toFixed(2)}</span>
             </div>
             <Alert>
-              <PackageCheck className="h-4 w-4" />
+              <PackageCheck className="size-5" />
               <AlertTitle>{texts.readyToOrder}</AlertTitle>
               <AlertDescription>{texts.whatsappMessageInfo}</AlertDescription>
             </Alert>
@@ -224,9 +224,9 @@ export default function SummaryPage() {
               className="w-full bg-primary text-primary-foreground text-lg hover:bg-primary/90 border"
             >
               {isLoading ? (
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                <Loader2 className="mr-2 size-5 animate-spin" />
               ) : (
-                <PackageCheck className="mr-2 h-4 w-4" />
+                <PackageCheck className="mr-2 size-6" />
               )}
               {texts.confirmOrderAndProceed}
             </Button>

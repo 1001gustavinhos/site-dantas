@@ -20,17 +20,17 @@ export function CartIcon() {
     <Button
       asChild
       variant="outline"
-      size="lg"
+      size="xl"
       className="relative border-none text-foreground bg-background hover:bg-primary hover:text-background"
     >
       <Link href="/cart" aria-label="Ver carrinho de compras">
         {isClient ? (
           <>
-            <ShoppingCart className="h-7 w-7" /> {/* Increased icon size */}
+            <ShoppingCart className="w-6 h-6" />
             {totalItems > 0 && (
               <Badge
                 variant="destructive"
-                className="absolute -top-2 -right-2 h-5 w-5 p-0 flex items-center justify-center text-xs rounded-full bg-red-600 text-white"
+                className="absolute -top-2 -right-2 h-7 w-7 flex items-center justify-center text-xs rounded-full bg-red-600 text-white"
                 aria-label={`${totalItems} ${
                   totalItems === 1 ? "item no carrinho" : "itens no carrinho"
                 }`}
