@@ -21,12 +21,15 @@ export function CartIcon() {
       asChild
       variant="outline"
       size="xl"
-      className="relative border-none text-foreground bg-background hover:bg-primary hover:text-background"
+      className="relative border-none text-foreground md:py-5 bg-background hover:bg-primary hover:text-background"
     >
       <Link href="/cart" aria-label="Ver carrinho de compras">
         {isClient ? (
           <>
             <ShoppingCart className="w-6 h-6" />
+            <span className="hidden md:inline-block font-sans text-base ml-2">
+              Carrinho
+            </span>
             {totalItems > 0 && (
               <Badge
                 variant="destructive"

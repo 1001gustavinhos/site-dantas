@@ -153,7 +153,7 @@ export function ProductCard({ product }: ProductCardProps) {
           ) : (
             <Button
               onClick={handleAddToCart}
-              className="w-full bg-accent md:text-lg text-accent-foreground hover:bg-accent/90  rounded-lg"
+              className="w-full bg-accent lg:text-base text-accent-foreground hover:bg-accent/90  rounded-lg"
             >
               <ShoppingCart className="mr-2 h-5 w-5" /> {texts.addToCart}
             </Button>

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { CartIcon } from "@/components/layout/CartIcon";
-import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
