@@ -40,7 +40,7 @@ export default function RootLayout({
           property="og:description"
           content="O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região."
         />
-        <meta property="og:url" content="https://seudominio.com.br/" />
+        <meta property="og:url" content="https://dantasedantas.com.br/" />
         <meta property="og:site_name" content="Dantas & Dantas" />
         <meta property="og:image" content="/metaImage.png" />
         <meta property="og:image:width" content="600" />
