@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Dantas & Dantas",
     images: [
       {
-        url: "/metaImage.png", // coloque a imagem na pasta public/
+        url: "/public/metaImage.png", // coloque a imagem na pasta public/
         width: 600,
         height: 300,
         alt: "Imagem de capa do site da Psicóloga Janine Correa",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description:
       "O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região.",
 
-    images: ["/metaImage.png"],
+    images: ["/public/metaImage.png"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -65,7 +65,7 @@ export default function RootLayout({
           name="twitter:description"
           content="O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região."
         />
-        <meta name="twitter:image" content="metaImage.png" />
+        <meta name="twitter:image" content="/public/metaImage.png" />
       </head>
       <body className="font-body antialiased" suppressHydrationWarning={true}>
         <AppProviderWrapper>{children}</AppProviderWrapper>
