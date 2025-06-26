@@ -16,6 +16,13 @@ const STORE_PHONE_NUMBER = "11995182883";
 const STORE_PHONE_NUMBER_DISPLAY = "(11) 99518-2883";
 const WHATSAPP_LINK = `https://wa.me/55${STORE_PHONE_NUMBER}`;
 
+const DEV_PHONE_NUMBER = "11981071231";
+const WHATSAPP_MESSAGE_DEV =
+  "Olá! Gostaria de uma solução tecnológica para o meu negócio. Poderia me ajudar?";
+const WHATSAPP_LINK_DEV = `https://wa.me/55${DEV_PHONE_NUMBER}?text=${encodeURIComponent(
+  WHATSAPP_MESSAGE_DEV
+)}`;
+
 export function Footer() {
   return (
     <footer className="py-8 md:px-8 border-t flex justify-center border-border/40 bg-muted/30">
@@ -35,6 +42,22 @@ export function Footer() {
           Entregas apenas para Barueri e região.
         </p>
 
+        <div className="flex flex-col items-center gap-2">
+          <span className="text-muted-foreground">Desenvolvido por:</span>
+          <a
+            href={WHATSAPP_LINK_DEV}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+            aria-label="Fale com o desenvolvedor via WhatsApp"
+          >
+            <img
+              src="/devDantas.png"
+              alt="Logo do desenvolvedor"
+              className="max-w-sm"
+            />
+          </a>
+        </div>
         <p className="text-balance leading-loose text-muted-foreground">
           &copy; {new Date().getFullYear()} Dantas & Dantas. Todos os direitos
           reservados.
