@@ -16,32 +16,7 @@ export const metadata: Metadata = {
 
   description:
     "O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região.",
-  metadataBase: new URL("https://psijaninecorrea.com.br"),
-  openGraph: {
-    title: "Dantas & Dantas",
-    description:
-      "O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região.",
-    url: "/",
-    siteName: "Dantas & Dantas",
-    images: [
-      {
-        url: "/metaImage.png", // coloque a imagem na pasta public/
-        width: 600,
-        height: 300,
-        alt: "Imagem da capa do site Dantas & Dantas",
-      },
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Dantas & Dantas",
-    description:
-      "O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região.",
-
-    images: ["/metaImage.png"],
-  },
+  metadataBase: new URL("https://dantasedantas.com.br"),
   icons: {
     icon: "/favicon.ico",
   },
@@ -59,6 +34,21 @@ export default function RootLayout({
       className={`${inter.variable}`}
     >
       <head>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dantas & Dantas" />
+        <meta
+          property="og:description"
+          content="O melhor da Argentina e Brasil em sua casa! Empanadas congeladas e castanhas de caju. Entregas em Barueri e região."
+        />
+        <meta property="og:url" content="https://seudominio.com.br/" />
+        <meta property="og:site_name" content="Dantas & Dantas" />
+        <meta property="og:image" content="/metaImage.png" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="300" />
+        <meta
+          property="og:image:alt"
+          content="Imagem da capa do site Dantas & Dantas"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Dantas & Dantas" />
         <meta
